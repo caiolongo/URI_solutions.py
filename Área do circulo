@@ -1,0 +1,6 @@
+n = 3.14159
+raio = float(input())
+area = n * (raio ** 2.00) 
+print('A=%.4f'%area)
+
+Após as variaveis serem definidas iremos printar os valores com % que indica resto e 4f indicando 4 digitos após a virgula. 
