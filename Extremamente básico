@@ -1,0 +1,8 @@
+A = input()
+B = input()
+X = A + B
+print(str('X = ') + str(X))
+
+Primeiro estamos declarando as variávies; A, B e X.
+Em seguida estamos imprimindo coisas na tela utilizando print. No caso str transforma o que
+estiver entre parenteses em strings por conta do STR. 
