@@ -1,0 +1,6 @@
+A = input() * 3.5
+B = input() * 7.5
+
+MEDIA = (A + B) / 11
+
+print('MEDIA = %.5f'%MEDIA)
