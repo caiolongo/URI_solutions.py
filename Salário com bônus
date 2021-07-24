@@ -1,0 +1,10 @@
+nome = raw_input()
+salario_ = float(input())
+vendas_mes = float(input())
+
+ganho_ = (vendas_mes * 15 /100) + salario_
+
+print('TOTAL = R$ %.2f'%ganho_)
+
+Foi utilizado raw_input porque a versão do python é a 2.7 e ela lê input() como variavel. Em python 2 utilizamos raw_input
+para pegar uma entrada como string. Se a versão fosse 3> poderiamos usar input();
